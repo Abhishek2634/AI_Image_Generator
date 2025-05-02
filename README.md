@@ -1,6 +1,6 @@
 # AI Image Generator
 
-<h3>Prepwise: A job interview preparation platform powered by Vapi AI Voice agents</h3>
+<h3>This Application uses Claid.ai API to generate AI images</h3>
 
 ## <a>🤖 Introduction</a>
 
