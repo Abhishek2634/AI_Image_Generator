@@ -12,7 +12,7 @@ export async function POST(request:Request) {
       });
 
       return Response.json( response.data.data, { status: 200 });
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Error generating image:', error.response?.data || error.message);
       return Response.json({ success: false, error: error }, { status: 500 });}
 }
